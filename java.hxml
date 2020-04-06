@@ -1,0 +1,10 @@
+common.hxml
+-D release
+#--no-inline
+
+#js
+#-js ./out/release/index.js
+
+# cpp
+#-D HXCPP_CPP11
+-java ./bench/java

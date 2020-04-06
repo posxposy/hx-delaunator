@@ -1,0 +1,14 @@
+{
+	"codedox": {
+		"commentprefix": "\t"
+	},
+	"haxe.taskPresentation": {
+		"echo": false,
+		"reveal": "silent",
+		"focus": true,
+		"panel": "shared",
+		"showReuseMessage": true,
+		"clear": false
+	},
+	"editor.formatOnSave": true
+}

@@ -1,0 +1,9 @@
+-p ./src
+
+delaunator.Delaunator
+
+-D analyzer-optimize
+-dce full
+
+-js ./jsLib/delaunator.js
+-D shallow-expose

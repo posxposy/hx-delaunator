@@ -1,0 +1,3 @@
+common.hxml
+
+-js ./bench/js/index.js

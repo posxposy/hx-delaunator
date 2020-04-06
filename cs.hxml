@@ -1,0 +1,3 @@
+common.hxml
+-L hxcs
+-cs ./bench/cs

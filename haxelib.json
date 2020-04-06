@@ -1,0 +1,18 @@
+{
+	"name": "hx-delaunator",
+	"url": "https://github.com/dmitryhryppa/hx-delaunator",
+	"license": "MIT",
+	"tags": [
+		"cross",
+		"triangulation",
+		"delaunate",
+		"delaunator"
+	],
+	"description": "An incredibly fast library for Delaunay triangulation of 2D points. Direct port from https://github.com/mapbox/delaunator",
+	"version": "1.0.0",
+	"classPath": "src/",
+	"releasenote": "Initial release, based on `4e6ecd4` commit of the original JS library.",
+	"contributors": [
+		"dmitryhryppa"
+	]
+}

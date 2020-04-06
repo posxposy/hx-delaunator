@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"label": "build-js",
+			"command": "haxe",
+			"args": [
+				"js.hxml"
+			],
+			"problemMatcher": [
+				"$haxe-absolute",
+				"$haxe",
+				"$haxe-error",
+				"$haxe-trace"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "process",
+			"label": "build-cpp",
+			"command": "haxe",
+			"args": [
+				"cpp.hxml"
+			],
+			"problemMatcher": [
+				"$haxe-absolute",
+				"$haxe",
+				"$haxe-error",
+				"$haxe-trace"
+			]
+		}
+	]
+}

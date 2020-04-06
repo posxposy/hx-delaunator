@@ -1,0 +1,4 @@
+common.hxml
+
+-D HXCPP_CPP11
+-cpp ./bench/cpp

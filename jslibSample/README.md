@@ -1,0 +1,1 @@
+Just open `index.html` in your browser without a server.
