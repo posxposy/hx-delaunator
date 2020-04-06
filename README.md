@@ -14,18 +14,9 @@ Benchmark results of Haxe cross-compilation against original Delaunay JS library
 | HashLink C       |         94ms |        95s |      86ms |       69ms |                  1.38s |                1.32s |               1.16s |                1.15s |
 | HashLink JIT     |        203ms |      197ms |     207ms |      146ms |                  2.63s |                2.74s |               2.52s |                2.63s |
 
-### Performance Comparsion Table
-
-| Performance |     uniform 100k |       gauss 100k |        grid 100k |       degen 100k |     uniform 1&nbsp;million | gauss 1&nbsp;million | grid 1&nbsp;million | degen 1&nbsp;million |
-| :---------- | ---------------: | ---------------: | ---------------: | ---------------: | -------------------------: | -------------------: | ------------------: | -------------------: |
-| Max         |          Haxe JS |          Haxe JS |        Haxe Java | **Original Lib** |                    Haxe JS |              Haxe JS |            Haxe C++ |     **Original Lib** |
-|             |         Haxe C++ |         Haxe C++ |          Haxe JS |          Haxe JS |                   Haxe C++ |             Haxe C++ |             Haxe JS |             Haxe C++ |
-|             | **Original Lib** | **Original Lib** |          Haxe C# |        Haxe Java | **Original Lib**,  Haxe C# |              Haxe C# |             Haxe C# |              Haxe JS |
-|             |          Haxe C# |        Haxe Java | **Original Lib** |          Haxe C# |                 HashLink C |     **Original Lib** |    **Original Lib** |              Haxe C# |
-|             |       HashLink C |          Haxe C# |       HashLink C |       HashLink C |                  Haxe Java |           HashLink C |           Haxe Java |            Haxe Java |
-|             |        Haxe Java |       HashLink C |         Haxe C++ |         Haxe C++ |               HashLink JIT |            Haxe Java |          HashLink C |           HashLink C |
-| Min         |     HashLink JIT |     HashLink JIT |     HashLink JIT |     HashLink JIT |                            |         HashLink JIT |        HashLink JIT |         HashLink JIT |
-
+### Performance Comparsion Chart
+![100k](https://github.com/dmitryhryppa/hx-delaunator/blob/master/compare_100k.png)
+![1m](https://github.com/dmitryhryppa/hx-delaunator/blob/master/compare_1m.png)
 
 ### Keep in mind
 All these benchmark results depend on the hardware and moon phases.
